@@ -19,11 +19,12 @@ d = status
 8. Looping proses unduh file berdasarkan kategori dan slug, cek jika file sudah ada lewati, jika belum ada unduh (baris 49-57)
 
 ## Cara Kerja
+```
 $ python3
->>> from doSpacesDownloadBoto3 import Download
->>> di = Download('di', '3', '4', 'terkirim')
->>> prosesDi = di.getByCat()
-
+from doSpacesDownloadBoto3 import Download
+di = Download('di', '3', '4', 'terkirim')
+prosesDi = di.getByCat()
+```
 ## File env
 Isi file .env
 
