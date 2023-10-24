@@ -27,9 +27,10 @@ prosesDi = di.getByCat()
 ```
 ## File env
 Isi file .env
-
+```
 URL=http://localhost:8001/data/download
 REGION_NAME = "sgp1"
 SPACE_NAME = "myspaces"
 PUBLIC_KEY = "xxxyyyzzz"
 SECRET_KEY = "mysecretkey"
+```
