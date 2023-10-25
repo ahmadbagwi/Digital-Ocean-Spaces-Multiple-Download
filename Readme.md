@@ -1,15 +1,18 @@
 # Digital Ocean Spaces Multiple Download
+### doSpacesDownloadBoto3.py
 Script Python untuk mengunduh file dari Digital Ocean Spaces berdasarkan kategori tertentu.
 
 ## Konsep
-Saya memiliki layanan pada website dimana setiap pengguna mendaftar akun dan mengunggah file. Kemudian saya butuh mengunggah file dari pengguna berdasarkan kriteria tertentu.
+Saya memiliki layanan pada website dimana setiap pengguna mendaftar akun dan mengunggah file. Kemudian saya butuh unduh file-file tersebut berdasarkan kriteria tertentu.
 
 ## Alur
-1. Tentukan variabel yang dibutuhkan (baris 10-13)
+1. Tentukan parameter yang dibutuhkan (baris 10-13)
+```
 a = direktori kategori
 b = program_id
 c = periode_id
 d = status
+```
 2. Panggil data akun yang akan diunduh filenya (baris 15)
 3. Ubah nama akun menjadi slug, hal ini karena direktori pada spaces pun dinamakan menggunakan slug (16-19)
 4. Looping proses unduh dengan memanggil fungsi downloadFiles (baris 24)
