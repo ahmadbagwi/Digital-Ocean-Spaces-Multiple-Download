@@ -36,4 +36,5 @@ REGION_NAME = "sgp1"
 SPACE_NAME = "myspaces"
 PUBLIC_KEY = "xxxyyyzzz"
 SECRET_KEY = "mysecretkey"
+BASE_PATH = "/home/ahmad-wsl22/web/python/dani"
 ```
